@@ -12,9 +12,11 @@ int main(void)
 	for (var = '0'; var <= '9'; var++)
 	{
 		putchar(var);
-		putchar(',');
-		putchar(' ');
+		if (var != 9)
+		{	putchar(',');
+			putchar(' ');
+		}
 	}
-	putchar ('\n');
+	putchar('\n');
 	return (0);
 }
