@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <unistd.h>
+#include "putchar.h"
+
 /**
  * main - entry point
  *
@@ -8,15 +8,14 @@
  */
 int main(void)
 {
-	char _,p,u,t,c,h,a,r;
 
-	_putchar(_);
-	_putchar(p);
-	_putchar(u);
-	_putchar(t);
-	_putchar(c);
-	_putchar(h);
-	_putchar(a);
-	_putchar(r);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	return (0);
 }
