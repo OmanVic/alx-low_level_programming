@@ -7,18 +7,18 @@
  */
 void print_to_98(int n)
 {
-	while (n < 98)
+	while (n < 99)
 	{
-		printf("%d\n", n);
+		printf("%d", n);
 		if (n == 98)
 		{
 			break;
 		}
 		n++;
 	}
-	while (n > 98)
+	while (n > 97)
 	{
-		printf("%d\n", n);
+		printf("%d", n);
 		if (n == 98)
 		{
 			break;
