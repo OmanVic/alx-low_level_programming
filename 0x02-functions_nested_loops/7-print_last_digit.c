@@ -1,15 +1,21 @@
 include "main.h"
-#include "6-abs.c"
+
 /**
- * print_last_digit - main function
- *
- * @n: integer to get last digit of
- * Return: last digit of n
- *
+ * print_last_digit - prints the last digit of a number
+ * @n:  is the int that will use for the argument of the function
+ * Return: integer value
  */
 
 int print_last_digit(int n)
 {
-	_putchar('0' + _abs(n % 10));
-	return (_abs(n % 10));
+	int last;
+
+	last = n % 10;
+
+	if (last < 0)
+		last = last * -1;
+
+	_putchar(last + '0');
+
+	return (last);
 }
