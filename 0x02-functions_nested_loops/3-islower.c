@@ -2,9 +2,9 @@
 /**
  * _islower - check if etter is in lowercase
  *
- * Return: 0 if c is lower
+ * Return: 0 or 1
  *
- * Return: 1 otherwise
+ * @c: checking case of character
  *
  */
 int _islower(int c)
