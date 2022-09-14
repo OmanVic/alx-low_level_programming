@@ -9,10 +9,10 @@ void print_to_98(int n)
 {
 	do {
 		printf("%d", n);
-		n++
-			if (n > 98)
-			{
-				break;
-			}
+		n++;
+		if (n > 98)
+		{
+			break;
+		}
 	} while (n < 98);
 }
