@@ -2,7 +2,7 @@
 /**
  * add - to add two functions
  *
- * @ a,b: parameters to be added
+ * @ a,b - parameters to be added
  * Return: always 0
  *
  */
