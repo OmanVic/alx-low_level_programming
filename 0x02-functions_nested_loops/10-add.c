@@ -2,7 +2,7 @@
 /**
  * add - to add two functions
  *
- * @m,n
+ * @ a and b
  *
  * Return: always 0
  *
