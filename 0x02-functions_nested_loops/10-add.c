@@ -2,7 +2,10 @@
 /**
  * add - to add two functions
  *
- * @a,b - parameters to be added
+ * @a - parameters to be added
+ *
+ * @b - int b 
+ *
  * Return: always 0
  *
  */
