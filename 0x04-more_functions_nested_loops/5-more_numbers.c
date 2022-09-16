@@ -3,14 +3,13 @@
  * more_numbers -print numbers
  */
 void more_numbers(void)
-{
-	int i;
-
-	int j;
-
-	for (i = 1; i <= 10; i++)
 	{
-		for (j = 1; j <= 14; j++)
+	int i;
+	int h;
+
+	for (h = 0; h <= 9; h++)
+	{
+		for (i = 0; i <= 14; i++)
 		{
 			if (i > 9)
 			{
