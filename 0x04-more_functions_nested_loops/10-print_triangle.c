@@ -9,13 +9,6 @@
  */
 void print_triangle(int size)
 {
-	#include "main.h"
-/**
-* print_triangle - prints a triangle
-* @size: takes in a integer for size of triangle
-*/
-void print_triangle(int size)
-{
 	int row, column, x;
 
 	if (size <= 0)
