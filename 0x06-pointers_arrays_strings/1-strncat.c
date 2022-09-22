@@ -2,7 +2,7 @@
 /**
  * _strncat - a function to concatenate two strings
  *
- * Return: it return a char data type
+ * Return: dest
  *
  * @dest: first variable
  *
