@@ -1,29 +1,30 @@
 #include "main.h"
-/**
- * rot13 - encode into 1337speak
- * @n: input value
- *
- * Return: n value
- */
-char *rot13(char *n)
-{
-        int i, j;
-        char x1[] = "AaBbCcDdEeFfGgHhIiJjKkLlMm";
-        char x2[] = "NnOoPpQqRrSsTtUuVvWwXxYyZz";
 
-        for (i = 0; n[i] != '\0'; i++)
-        {
-                for (j = 0; j < 26; j++)
-                {
-                        if (n[i] == x1[j])
-                        {
-                                n[i] = x2[j];
-                        }
-			else if (n[i] == x2[j])
+/**
+ * rot13 - encodes a string using rot13.
+ * @s: The string
+ *
+ * Return: The string
+ */
+char *rot13(char *s)
+{
+	int i, j;
+	char r[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+	char alpha[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char boolean;
+
+	for (i = 0; s[i] != '\0'; i++)
+	{
+		boolean = 0;
+		for (j = 0; alpha[j] != '\0' && boolean == 0; j++)
+		{
+			if (s[i] == alpha[j])
 			{
-				n[i] = x1[j];
+				s[i] = r[j];
+				boolean = 1;
 			}
-                }
-        }
-        return (n);
+		}
+	}
+
+	return (s);
 }
