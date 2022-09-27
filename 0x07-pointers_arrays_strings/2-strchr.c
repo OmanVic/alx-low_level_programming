@@ -18,7 +18,7 @@ char *_strchr(char *s, char c)
 	{
 		if (s[i] == c)
 		{
-			new = s + i;
+			new = &s[i];
 			break;
 		}
 		else
