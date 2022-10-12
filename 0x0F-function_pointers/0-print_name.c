@@ -4,7 +4,9 @@
  *
  * @name: pointer to the variable name
  *
- * @f: pointer to the functionf
+ * @f: pointer to the function
+ *
+ * Return: void
  *
  */
 void print_name(char *name, void (*f)(char *))
