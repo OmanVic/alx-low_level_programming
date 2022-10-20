@@ -1,6 +1,7 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "lists.h"
+#include <stdio.h>
+#include <stddef.h>
+#include <stdio.h>
 #include <string.h>
 /**
  * print_list - prints and count element in a list
