@@ -1,11 +1,12 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
- * printf - to print strings
+ * _printf - to print strings
  *
  * Return: void
  *
  */
-void printf(void)
+void _printf(void)
 {
 	printf("You're beat! and yet, you must allow,\n");
 	printf("I bore my house upon my back!\n");
