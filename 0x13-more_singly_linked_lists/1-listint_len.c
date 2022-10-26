@@ -1,4 +1,6 @@
 #include "lists.h"
+#include <stddef.h>
+#include <stdlib.h>
 /**
  * listint_len - function to count element in a linked list
  *
@@ -9,7 +11,7 @@
  */
 size_t listint_len(const listint_t *h)
 {
-	size_t i = 0;
+	int i = 0;
 
 	while (h != NULL)
 	{
