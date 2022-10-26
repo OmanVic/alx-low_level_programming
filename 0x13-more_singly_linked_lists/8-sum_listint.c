@@ -19,5 +19,9 @@ int sum_listint(listint_t *head)
 		ptr = ptr->next;
 	}
 	k = k + (ptr->n);
+	if(k == 0)
+	{
+		return (0);
+	}
 	return (k);
 }
