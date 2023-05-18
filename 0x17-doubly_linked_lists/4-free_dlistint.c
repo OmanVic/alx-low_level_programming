@@ -1,5 +1,5 @@
 #include "lists.h"
-/*
+/**
  * free_dlistint - frees the entire nodes of a linked list
  *
  * @head: pointer to the linked list
