@@ -12,4 +12,4 @@ for num in range(100, 1000):
         if n_number == rev:
             if n_number > max_palind:
                 max_palind = n_number
-print(max_palind)
+print(max_palind, end="")
