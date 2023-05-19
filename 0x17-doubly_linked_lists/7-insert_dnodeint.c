@@ -8,6 +8,8 @@
  *
  * @n: integer in the new node
  *
+ * Return: a linkedlist
+ *
  */
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
@@ -18,7 +20,6 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	temp = *h;
 
 	new = malloc(sizeof(dlistint_t));
-	
 	while (i < idx && temp)
 	{
 		ptr = ptr->next;
